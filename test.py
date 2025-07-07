@@ -1,28 +1,38 @@
-from stable_baselines3 import PPO
+from stable_baselines3 import PPO, SAC
 from stable_baselines3.common.vec_env import DummyVecEnv
 from reacher_env import ReacherEnv
 
-# Create the environment
-env = DummyVecEnv([lambda: ReacherEnv("C:/Users/90546/Desktop/customenv/safe_reacher.xml"),])
+# === Choose algorithm and model file ===
+# Uncomment one of these as needed
 
-# Load the trained model
-model = PPO.load("ppo_reacher", env=env)
+# For PPO:
+ALGO = PPO
+MODEL_PATH = "C:/Users/90546/Desktop/customenv/models/ppo_reacher.zip"
 
+# For SAC:
+#ALGO = SAC
+#MODEL_PATH = "C:/Users/90546/Desktop/customenv/models/sac_reacher.zip"
 
-# Reset environment
+# === Create environment ===
+env = DummyVecEnv([lambda: ReacherEnv("C:/Users/90546/Desktop/customenv/safe_reacher.xml")])
 
+# === Load model ===
+model = ALGO.load(MODEL_PATH, env=env)
+
+# === Run and visualize ===
 obs = env.reset()
-for _ in range(100000):
+
+for _ in range(10000):
     action, _ = model.predict(obs, deterministic=True)
     obs, reward, done, info = env.step(action)
 
+    # Render MuJoCo viewer
     env.envs[0].render()
 
+    # When an episode ends
     if done[0]:
-        # Print the info dict — this will show if truncated or terminated
-        print(f"Episode ended — info: {info[0]}")
+       
         obs = env.reset()
 
-
-# Clean up
+# === Clean up ===
 env.close()

@@ -1,0 +1,54 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            o988h30cwyedw8xxu9ssn7zdep1tywba:
+                codePath: train.ppo.py
+                codePathLocal: train.ppo.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1023411220480"
+                        used: "112202924032"
+                email: krkcdeniz15@gmail.com
+                executable: c:\Users\90546\AppData\Local\Programs\Python\Python313\python.exe
+                git:
+                    commit: 276d86e6636e11d553cdf71b2a810cf40279107e
+                    remote: https://github.com/Dkurkcu/reacher_customenv_v1.git
+                host: DESKTOP-E3OIJ6K
+                memory:
+                    total: "14773178368"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\90546\Desktop\customenv\train.ppo.py
+                python: CPython 3.13.3
+                root: C:\Users\90546\Desktop\customenv
+                startedAt: "2025-07-07T13:46:59.227875Z"
+                writerId: o988h30cwyedw8xxu9ssn7zdep1tywba
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.13.3
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+algo:
+    value: PPO
+env:
+    value: Custom Reacher v1
+learning_rate:
+    value: 0.0001
+reward_shaping:
+    value: precision_bonus + progress + penalties
+timesteps:
+    value: 200000

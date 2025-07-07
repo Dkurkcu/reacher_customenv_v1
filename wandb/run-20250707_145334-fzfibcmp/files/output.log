@@ -1,0 +1,53 @@
+Using cpu device
+Logging to ./sac_tensorboard/SAC_2
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 200      |
+|    ep_rew_mean     | -145     |
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 101      |
+|    time_elapsed    | 7        |
+|    total_timesteps | 800      |
+| train/             |          |
+|    actor_loss      | -3.09    |
+|    critic_loss     | 0.0325   |
+|    ent_coef        | 0.811    |
+|    ent_coef_loss   | -0.703   |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 699      |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 200      |
+|    ep_rew_mean     | -143     |
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 95       |
+|    time_elapsed    | 16       |
+|    total_timesteps | 1600     |
+| train/             |          |
+|    actor_loss      | -3.55    |
+|    critic_loss     | 0.0267   |
+|    ent_coef        | 0.638    |
+|    ent_coef_loss   | -1.5     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 1499     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 200      |
+|    ep_rew_mean     | -139     |
+| time/              |          |
+|    episodes        | 12       |
+|    fps             | 93       |
+|    time_elapsed    | 25       |
+|    total_timesteps | 2400     |
+| train/             |          |
+|    actor_loss      | -3.33    |
+|    critic_loss     | 0.0244   |
+|    ent_coef        | 0.502    |
+|    ent_coef_loss   | -2.31    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 2299     |
+---------------------------------

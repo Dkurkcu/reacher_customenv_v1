@@ -1,0 +1,3 @@
+Using cpu device
+✅ SAC model using device: cpu
+Logging to ./sac_tensorboard/SAC_3
