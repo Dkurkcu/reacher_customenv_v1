@@ -1,0 +1,1139 @@
+Using cpu device
+Logging to ./ppo_tensorboard/PPO_5
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-0-to-step-500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-0-to-step-500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-0-to-step-500.mp4
+                                                                                                                                           
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-0-to-step-500.mp4
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 200      |
+|    ep_rew_mean     | -165     |
+| time/              |          |
+|    fps             | 786      |
+|    iterations      | 1        |
+|    time_elapsed    | 2        |
+|    total_timesteps | 2048     |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -164        |
+| time/                   |             |
+|    fps                  | 824         |
+|    iterations           | 2           |
+|    time_elapsed         | 4           |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.005489958 |
+|    clip_fraction        | 0.0381      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.83       |
+|    explained_variance   | 0.00104     |
+|    learning_rate        | 0.0001      |
+|    loss                 | 35.9        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00639    |
+|    std                  | 0.994       |
+|    value_loss           | 115         |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -161         |
+| time/                   |              |
+|    fps                  | 852          |
+|    iterations           | 3            |
+|    time_elapsed         | 7            |
+|    total_timesteps      | 6144         |
+| train/                  |              |
+|    approx_kl            | 0.0034608212 |
+|    clip_fraction        | 0.00264      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.81        |
+|    explained_variance   | -0.0571      |
+|    learning_rate        | 0.0001       |
+|    loss                 | 32.2         |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.00343     |
+|    std                  | 0.982        |
+|    value_loss           | 97.1         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -159         |
+| time/                   |              |
+|    fps                  | 865          |
+|    iterations           | 4            |
+|    time_elapsed         | 9            |
+|    total_timesteps      | 8192         |
+| train/                  |              |
+|    approx_kl            | 0.0037199901 |
+|    clip_fraction        | 0.0114       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.79        |
+|    explained_variance   | 0.000208     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 29.5         |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.00389     |
+|    std                  | 0.97         |
+|    value_loss           | 81.5         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -158         |
+| time/                   |              |
+|    fps                  | 842          |
+|    iterations           | 5            |
+|    time_elapsed         | 12           |
+|    total_timesteps      | 10240        |
+| train/                  |              |
+|    approx_kl            | 0.0058264565 |
+|    clip_fraction        | 0.0426       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.77        |
+|    explained_variance   | -0.000551    |
+|    learning_rate        | 0.0001       |
+|    loss                 | 28.3         |
+|    n_updates            | 40           |
+|    policy_gradient_loss | -0.00501     |
+|    std                  | 0.963        |
+|    value_loss           | 79.2         |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-10000-to-step-10500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-10000-to-step-10500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-10000-to-step-10500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-10000-to-step-10500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -156         |
+| time/                   |              |
+|    fps                  | 811          |
+|    iterations           | 6            |
+|    time_elapsed         | 15           |
+|    total_timesteps      | 12288        |
+| train/                  |              |
+|    approx_kl            | 0.0044871676 |
+|    clip_fraction        | 0.0248       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.75        |
+|    explained_variance   | 0.000288     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 26.1         |
+|    n_updates            | 50           |
+|    policy_gradient_loss | -0.00309     |
+|    std                  | 0.953        |
+|    value_loss           | 70.4         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -156        |
+| time/                   |             |
+|    fps                  | 824         |
+|    iterations           | 7           |
+|    time_elapsed         | 17          |
+|    total_timesteps      | 14336       |
+| train/                  |             |
+|    approx_kl            | 0.004191757 |
+|    clip_fraction        | 0.0265      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.73       |
+|    explained_variance   | -0.000147   |
+|    learning_rate        | 0.0001      |
+|    loss                 | 24.9        |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.00407    |
+|    std                  | 0.943       |
+|    value_loss           | 64.9        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -155         |
+| time/                   |              |
+|    fps                  | 831          |
+|    iterations           | 8            |
+|    time_elapsed         | 19           |
+|    total_timesteps      | 16384        |
+| train/                  |              |
+|    approx_kl            | 0.0069150073 |
+|    clip_fraction        | 0.0411       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.71        |
+|    explained_variance   | 0.000625     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 22.6         |
+|    n_updates            | 70           |
+|    policy_gradient_loss | -0.0065      |
+|    std                  | 0.931        |
+|    value_loss           | 59.9         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -154         |
+| time/                   |              |
+|    fps                  | 834          |
+|    iterations           | 9            |
+|    time_elapsed         | 22           |
+|    total_timesteps      | 18432        |
+| train/                  |              |
+|    approx_kl            | 0.0054622767 |
+|    clip_fraction        | 0.0333       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.69        |
+|    explained_variance   | -0.000221    |
+|    learning_rate        | 0.0001       |
+|    loss                 | 18.6         |
+|    n_updates            | 80           |
+|    policy_gradient_loss | -0.00472     |
+|    std                  | 0.924        |
+|    value_loss           | 51.4         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -153         |
+| time/                   |              |
+|    fps                  | 816          |
+|    iterations           | 10           |
+|    time_elapsed         | 25           |
+|    total_timesteps      | 20480        |
+| train/                  |              |
+|    approx_kl            | 0.0034041558 |
+|    clip_fraction        | 0.015        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.67        |
+|    explained_variance   | 5.25e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 16.4         |
+|    n_updates            | 90           |
+|    policy_gradient_loss | -0.00241     |
+|    std                  | 0.915        |
+|    value_loss           | 44.9         |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-20000-to-step-20500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-20000-to-step-20500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-20000-to-step-20500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-20000-to-step-20500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -151         |
+| time/                   |              |
+|    fps                  | 814          |
+|    iterations           | 11           |
+|    time_elapsed         | 27           |
+|    total_timesteps      | 22528        |
+| train/                  |              |
+|    approx_kl            | 0.0049311263 |
+|    clip_fraction        | 0.0229       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.65        |
+|    explained_variance   | 1.67e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 14.5         |
+|    n_updates            | 100          |
+|    policy_gradient_loss | -0.0037      |
+|    std                  | 0.905        |
+|    value_loss           | 38.7         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -149        |
+| time/                   |             |
+|    fps                  | 820         |
+|    iterations           | 12          |
+|    time_elapsed         | 29          |
+|    total_timesteps      | 24576       |
+| train/                  |             |
+|    approx_kl            | 0.003525836 |
+|    clip_fraction        | 0.0194      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.63       |
+|    explained_variance   | -6.91e-05   |
+|    learning_rate        | 0.0001      |
+|    loss                 | 10.7        |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.00259    |
+|    std                  | 0.894       |
+|    value_loss           | 34.1        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -147        |
+| time/                   |             |
+|    fps                  | 822         |
+|    iterations           | 13          |
+|    time_elapsed         | 32          |
+|    total_timesteps      | 26624       |
+| train/                  |             |
+|    approx_kl            | 0.006383419 |
+|    clip_fraction        | 0.0355      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.6        |
+|    explained_variance   | 5.76e-05    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 9.34        |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.00382    |
+|    std                  | 0.885       |
+|    value_loss           | 30.3        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -146         |
+| time/                   |              |
+|    fps                  | 826          |
+|    iterations           | 14           |
+|    time_elapsed         | 34           |
+|    total_timesteps      | 28672        |
+| train/                  |              |
+|    approx_kl            | 0.0033291904 |
+|    clip_fraction        | 0.00835      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.58        |
+|    explained_variance   | 0.000156     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 8.85         |
+|    n_updates            | 130          |
+|    policy_gradient_loss | -0.00214     |
+|    std                  | 0.872        |
+|    value_loss           | 25.8         |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-30000-to-step-30500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-30000-to-step-30500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-30000-to-step-30500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-30000-to-step-30500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -145         |
+| time/                   |              |
+|    fps                  | 809          |
+|    iterations           | 15           |
+|    time_elapsed         | 37           |
+|    total_timesteps      | 30720        |
+| train/                  |              |
+|    approx_kl            | 0.0036542015 |
+|    clip_fraction        | 0.012        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.55        |
+|    explained_variance   | 2.04e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.91         |
+|    n_updates            | 140          |
+|    policy_gradient_loss | -0.00224     |
+|    std                  | 0.862        |
+|    value_loss           | 21.7         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -144        |
+| time/                   |             |
+|    fps                  | 812         |
+|    iterations           | 16          |
+|    time_elapsed         | 40          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.004942324 |
+|    clip_fraction        | 0.0311      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.53       |
+|    explained_variance   | 1.57e-05    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 4.6         |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.00442    |
+|    std                  | 0.853       |
+|    value_loss           | 18.1        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -142         |
+| time/                   |              |
+|    fps                  | 810          |
+|    iterations           | 17           |
+|    time_elapsed         | 42           |
+|    total_timesteps      | 34816        |
+| train/                  |              |
+|    approx_kl            | 0.0062363916 |
+|    clip_fraction        | 0.0377       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.51        |
+|    explained_variance   | -8.58e-06    |
+|    learning_rate        | 0.0001       |
+|    loss                 | 4.11         |
+|    n_updates            | 160          |
+|    policy_gradient_loss | -0.00492     |
+|    std                  | 0.843        |
+|    value_loss           | 15.3         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -141        |
+| time/                   |             |
+|    fps                  | 814         |
+|    iterations           | 18          |
+|    time_elapsed         | 45          |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.004271738 |
+|    clip_fraction        | 0.0281      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.47       |
+|    explained_variance   | -2.98e-05   |
+|    learning_rate        | 0.0001      |
+|    loss                 | 3.25        |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.00372    |
+|    std                  | 0.826       |
+|    value_loss           | 11.9        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -140         |
+| time/                   |              |
+|    fps                  | 817          |
+|    iterations           | 19           |
+|    time_elapsed         | 47           |
+|    total_timesteps      | 38912        |
+| train/                  |              |
+|    approx_kl            | 0.0059204902 |
+|    clip_fraction        | 0.0195       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.44        |
+|    explained_variance   | 3.65e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 2.31         |
+|    n_updates            | 180          |
+|    policy_gradient_loss | -0.00233     |
+|    std                  | 0.814        |
+|    value_loss           | 9.82         |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-40000-to-step-40500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-40000-to-step-40500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-40000-to-step-40500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-40000-to-step-40500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -139         |
+| time/                   |              |
+|    fps                  | 803          |
+|    iterations           | 20           |
+|    time_elapsed         | 50           |
+|    total_timesteps      | 40960        |
+| train/                  |              |
+|    approx_kl            | 0.0047141886 |
+|    clip_fraction        | 0.0299       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.4         |
+|    explained_variance   | 3.09e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 1.13         |
+|    n_updates            | 190          |
+|    policy_gradient_loss | -0.00526     |
+|    std                  | 0.795        |
+|    value_loss           | 6.7          |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -138        |
+| time/                   |             |
+|    fps                  | 806         |
+|    iterations           | 21          |
+|    time_elapsed         | 53          |
+|    total_timesteps      | 43008       |
+| train/                  |             |
+|    approx_kl            | 0.004005285 |
+|    clip_fraction        | 0.0312      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.36       |
+|    explained_variance   | 1.16e-05    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.703       |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.00409    |
+|    std                  | 0.778       |
+|    value_loss           | 4.54        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -137        |
+| time/                   |             |
+|    fps                  | 809         |
+|    iterations           | 22          |
+|    time_elapsed         | 55          |
+|    total_timesteps      | 45056       |
+| train/                  |             |
+|    approx_kl            | 0.005905859 |
+|    clip_fraction        | 0.0513      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.31       |
+|    explained_variance   | 1.97e-06    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.376       |
+|    n_updates            | 210         |
+|    policy_gradient_loss | -0.00824    |
+|    std                  | 0.756       |
+|    value_loss           | 3.34        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -135        |
+| time/                   |             |
+|    fps                  | 810         |
+|    iterations           | 23          |
+|    time_elapsed         | 58          |
+|    total_timesteps      | 47104       |
+| train/                  |             |
+|    approx_kl            | 0.005357704 |
+|    clip_fraction        | 0.0271      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.25       |
+|    explained_variance   | 3.3e-05     |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.163       |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.00484    |
+|    std                  | 0.734       |
+|    value_loss           | 2.07        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -134        |
+| time/                   |             |
+|    fps                  | 813         |
+|    iterations           | 24          |
+|    time_elapsed         | 60          |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.007943494 |
+|    clip_fraction        | 0.0369      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.19       |
+|    explained_variance   | 2.42e-05    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.123       |
+|    n_updates            | 230         |
+|    policy_gradient_loss | -0.00685    |
+|    std                  | 0.706       |
+|    value_loss           | 1.01        |
+-----------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-50000-to-step-50500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-50000-to-step-50500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-50000-to-step-50500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-50000-to-step-50500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -132         |
+| time/                   |              |
+|    fps                  | 800          |
+|    iterations           | 25           |
+|    time_elapsed         | 63           |
+|    total_timesteps      | 51200        |
+| train/                  |              |
+|    approx_kl            | 0.0043973546 |
+|    clip_fraction        | 0.0553       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.12        |
+|    explained_variance   | 3.03e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.16         |
+|    n_updates            | 240          |
+|    policy_gradient_loss | -0.00921     |
+|    std                  | 0.688        |
+|    value_loss           | 0.758        |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -131        |
+| time/                   |             |
+|    fps                  | 801         |
+|    iterations           | 26          |
+|    time_elapsed         | 66          |
+|    total_timesteps      | 53248       |
+| train/                  |             |
+|    approx_kl            | 0.005300555 |
+|    clip_fraction        | 0.0209      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.06       |
+|    explained_variance   | 5.7e-05     |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.0862      |
+|    n_updates            | 250         |
+|    policy_gradient_loss | -0.00502    |
+|    std                  | 0.667       |
+|    value_loss           | 0.351       |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 200        |
+|    ep_rew_mean          | -129       |
+| time/                   |            |
+|    fps                  | 803        |
+|    iterations           | 27         |
+|    time_elapsed         | 68         |
+|    total_timesteps      | 55296      |
+| train/                  |            |
+|    approx_kl            | 0.00518278 |
+|    clip_fraction        | 0.0484     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2         |
+|    explained_variance   | 2.96e-05   |
+|    learning_rate        | 0.0001     |
+|    loss                 | 0.0658     |
+|    n_updates            | 260        |
+|    policy_gradient_loss | -0.00835   |
+|    std                  | 0.651      |
+|    value_loss           | 0.218      |
+----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -128         |
+| time/                   |              |
+|    fps                  | 806          |
+|    iterations           | 28           |
+|    time_elapsed         | 71           |
+|    total_timesteps      | 57344        |
+| train/                  |              |
+|    approx_kl            | 0.0042293286 |
+|    clip_fraction        | 0.0399       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.96        |
+|    explained_variance   | 7.56e-05     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0325       |
+|    n_updates            | 270          |
+|    policy_gradient_loss | -0.00747     |
+|    std                  | 0.637        |
+|    value_loss           | 0.158        |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -126        |
+| time/                   |             |
+|    fps                  | 807         |
+|    iterations           | 29          |
+|    time_elapsed         | 73          |
+|    total_timesteps      | 59392       |
+| train/                  |             |
+|    approx_kl            | 0.006920755 |
+|    clip_fraction        | 0.063       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.92       |
+|    explained_variance   | 5.36e-07    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.0257      |
+|    n_updates            | 280         |
+|    policy_gradient_loss | -0.0105     |
+|    std                  | 0.625       |
+|    value_loss           | 0.12        |
+-----------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-60000-to-step-60500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-60000-to-step-60500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-60000-to-step-60500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-60000-to-step-60500.mp4
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -125        |
+| time/                   |             |
+|    fps                  | 799         |
+|    iterations           | 30          |
+|    time_elapsed         | 76          |
+|    total_timesteps      | 61440       |
+| train/                  |             |
+|    approx_kl            | 0.006286664 |
+|    clip_fraction        | 0.0456      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.87       |
+|    explained_variance   | -2.86e-05   |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.0271      |
+|    n_updates            | 290         |
+|    policy_gradient_loss | -0.00978    |
+|    std                  | 0.61        |
+|    value_loss           | 0.0943      |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -124        |
+| time/                   |             |
+|    fps                  | 801         |
+|    iterations           | 31          |
+|    time_elapsed         | 79          |
+|    total_timesteps      | 63488       |
+| train/                  |             |
+|    approx_kl            | 0.006755026 |
+|    clip_fraction        | 0.0634      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.83       |
+|    explained_variance   | -7.37e-05   |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.00359     |
+|    n_updates            | 300         |
+|    policy_gradient_loss | -0.0104     |
+|    std                  | 0.598       |
+|    value_loss           | 0.0731      |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -122         |
+| time/                   |              |
+|    fps                  | 802          |
+|    iterations           | 32           |
+|    time_elapsed         | 81           |
+|    total_timesteps      | 65536        |
+| train/                  |              |
+|    approx_kl            | 0.0051707653 |
+|    clip_fraction        | 0.05         |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.79        |
+|    explained_variance   | -5.39e-05    |
+|    learning_rate        | 0.0001       |
+|    loss                 | -0.002       |
+|    n_updates            | 310          |
+|    policy_gradient_loss | -0.00708     |
+|    std                  | 0.587        |
+|    value_loss           | 0.0697       |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -122        |
+| time/                   |             |
+|    fps                  | 805         |
+|    iterations           | 33          |
+|    time_elapsed         | 83          |
+|    total_timesteps      | 67584       |
+| train/                  |             |
+|    approx_kl            | 0.007999959 |
+|    clip_fraction        | 0.055       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.75       |
+|    explained_variance   | -7.15e-07   |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.0263      |
+|    n_updates            | 320         |
+|    policy_gradient_loss | -0.0091     |
+|    std                  | 0.576       |
+|    value_loss           | 0.0741      |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -120         |
+| time/                   |              |
+|    fps                  | 807          |
+|    iterations           | 34           |
+|    time_elapsed         | 86           |
+|    total_timesteps      | 69632        |
+| train/                  |              |
+|    approx_kl            | 0.0037022105 |
+|    clip_fraction        | 0.0317       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.71        |
+|    explained_variance   | 2.3e-05      |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0429       |
+|    n_updates            | 330          |
+|    policy_gradient_loss | -0.00765     |
+|    std                  | 0.565        |
+|    value_loss           | 0.082        |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-70000-to-step-70500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-70000-to-step-70500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-70000-to-step-70500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-70000-to-step-70500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -120         |
+| time/                   |              |
+|    fps                  | 799          |
+|    iterations           | 35           |
+|    time_elapsed         | 89           |
+|    total_timesteps      | 71680        |
+| train/                  |              |
+|    approx_kl            | 0.0037547257 |
+|    clip_fraction        | 0.0208       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.68        |
+|    explained_variance   | -3.98e-05    |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.053        |
+|    n_updates            | 340          |
+|    policy_gradient_loss | -0.00493     |
+|    std                  | 0.556        |
+|    value_loss           | 0.0634       |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -119        |
+| time/                   |             |
+|    fps                  | 800         |
+|    iterations           | 36          |
+|    time_elapsed         | 92          |
+|    total_timesteps      | 73728       |
+| train/                  |             |
+|    approx_kl            | 0.005065008 |
+|    clip_fraction        | 0.0338      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.65       |
+|    explained_variance   | 0.000157    |
+|    learning_rate        | 0.0001      |
+|    loss                 | -0.000512   |
+|    n_updates            | 350         |
+|    policy_gradient_loss | -0.00511    |
+|    std                  | 0.548       |
+|    value_loss           | 0.0435      |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -118         |
+| time/                   |              |
+|    fps                  | 801          |
+|    iterations           | 37           |
+|    time_elapsed         | 94           |
+|    total_timesteps      | 75776        |
+| train/                  |              |
+|    approx_kl            | 0.0038189907 |
+|    clip_fraction        | 0.0138       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.61        |
+|    explained_variance   | 0.000263     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0262       |
+|    n_updates            | 360          |
+|    policy_gradient_loss | -0.00354     |
+|    std                  | 0.538        |
+|    value_loss           | 0.0402       |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -117        |
+| time/                   |             |
+|    fps                  | 803         |
+|    iterations           | 38          |
+|    time_elapsed         | 96          |
+|    total_timesteps      | 77824       |
+| train/                  |             |
+|    approx_kl            | 0.006441202 |
+|    clip_fraction        | 0.05        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.58       |
+|    explained_variance   | 0.000152    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.0208      |
+|    n_updates            | 370         |
+|    policy_gradient_loss | -0.00638    |
+|    std                  | 0.53        |
+|    value_loss           | 0.0379      |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -117         |
+| time/                   |              |
+|    fps                  | 804          |
+|    iterations           | 39           |
+|    time_elapsed         | 99           |
+|    total_timesteps      | 79872        |
+| train/                  |              |
+|    approx_kl            | 0.0039091473 |
+|    clip_fraction        | 0.0394       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.55        |
+|    explained_variance   | 0.000342     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.011        |
+|    n_updates            | 380          |
+|    policy_gradient_loss | -0.00499     |
+|    std                  | 0.521        |
+|    value_loss           | 0.045        |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-80000-to-step-80500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-80000-to-step-80500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-80000-to-step-80500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-80000-to-step-80500.mp4
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -116        |
+| time/                   |             |
+|    fps                  | 797         |
+|    iterations           | 40          |
+|    time_elapsed         | 102         |
+|    total_timesteps      | 81920       |
+| train/                  |             |
+|    approx_kl            | 0.005361433 |
+|    clip_fraction        | 0.0493      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.51       |
+|    explained_variance   | 0.000566    |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.00297     |
+|    n_updates            | 390         |
+|    policy_gradient_loss | -0.00788    |
+|    std                  | 0.512       |
+|    value_loss           | 0.0506      |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -116         |
+| time/                   |              |
+|    fps                  | 799          |
+|    iterations           | 41           |
+|    time_elapsed         | 104          |
+|    total_timesteps      | 83968        |
+| train/                  |              |
+|    approx_kl            | 0.0035263672 |
+|    clip_fraction        | 0.0488       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.48        |
+|    explained_variance   | 0.000971     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0113       |
+|    n_updates            | 400          |
+|    policy_gradient_loss | -0.00461     |
+|    std                  | 0.506        |
+|    value_loss           | 0.0495       |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -115         |
+| time/                   |              |
+|    fps                  | 801          |
+|    iterations           | 42           |
+|    time_elapsed         | 107          |
+|    total_timesteps      | 86016        |
+| train/                  |              |
+|    approx_kl            | 0.0037837876 |
+|    clip_fraction        | 0.0334       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.45        |
+|    explained_variance   | 0.0013       |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0114       |
+|    n_updates            | 410          |
+|    policy_gradient_loss | -0.00438     |
+|    std                  | 0.498        |
+|    value_loss           | 0.0405       |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -115         |
+| time/                   |              |
+|    fps                  | 803          |
+|    iterations           | 43           |
+|    time_elapsed         | 109          |
+|    total_timesteps      | 88064        |
+| train/                  |              |
+|    approx_kl            | 0.0043404275 |
+|    clip_fraction        | 0.0168       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.42        |
+|    explained_variance   | 0.00239      |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0253       |
+|    n_updates            | 420          |
+|    policy_gradient_loss | -0.00127     |
+|    std                  | 0.491        |
+|    value_loss           | 0.047        |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -115         |
+| time/                   |              |
+|    fps                  | 803          |
+|    iterations           | 44           |
+|    time_elapsed         | 112          |
+|    total_timesteps      | 90112        |
+| train/                  |              |
+|    approx_kl            | 0.0041478625 |
+|    clip_fraction        | 0.0193       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.39        |
+|    explained_variance   | 0.00522      |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.00966      |
+|    n_updates            | 430          |
+|    policy_gradient_loss | -0.00397     |
+|    std                  | 0.484        |
+|    value_loss           | 0.0375       |
+------------------------------------------
+Saving video to C:\Users\90546\Desktop\customenv\videos\reacher_train-step-90000-to-step-90500.mp4
+MoviePy - Building video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-90000-to-step-90500.mp4.
+MoviePy - Writing video C:\Users\90546\Desktop\customenv\videos\reacher_train-step-90000-to-step-90500.mp4
+
+MoviePy - Done !
+MoviePy - video ready C:\Users\90546\Desktop\customenv\videos\reacher_train-step-90000-to-step-90500.mp4
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -114         |
+| time/                   |              |
+|    fps                  | 799          |
+|    iterations           | 45           |
+|    time_elapsed         | 115          |
+|    total_timesteps      | 92160        |
+| train/                  |              |
+|    approx_kl            | 0.0038463268 |
+|    clip_fraction        | 0.0225       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.36        |
+|    explained_variance   | 0.0202       |
+|    learning_rate        | 0.0001       |
+|    loss                 | -0.00586     |
+|    n_updates            | 440          |
+|    policy_gradient_loss | -0.00355     |
+|    std                  | 0.478        |
+|    value_loss           | 0.0368       |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 200         |
+|    ep_rew_mean          | -114        |
+| time/                   |             |
+|    fps                  | 800         |
+|    iterations           | 46          |
+|    time_elapsed         | 117         |
+|    total_timesteps      | 94208       |
+| train/                  |             |
+|    approx_kl            | 0.004411062 |
+|    clip_fraction        | 0.05        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.34       |
+|    explained_variance   | 0.277       |
+|    learning_rate        | 0.0001      |
+|    loss                 | -0.0105     |
+|    n_updates            | 450         |
+|    policy_gradient_loss | -0.00614    |
+|    std                  | 0.471       |
+|    value_loss           | 0.0296      |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -114         |
+| time/                   |              |
+|    fps                  | 802          |
+|    iterations           | 47           |
+|    time_elapsed         | 119          |
+|    total_timesteps      | 96256        |
+| train/                  |              |
+|    approx_kl            | 0.0037453352 |
+|    clip_fraction        | 0.0206       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.31        |
+|    explained_variance   | 0.483        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.0162       |
+|    n_updates            | 460          |
+|    policy_gradient_loss | -0.00441     |
+|    std                  | 0.466        |
+|    value_loss           | 0.0318       |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -114         |
+| time/                   |              |
+|    fps                  | 803          |
+|    iterations           | 48           |
+|    time_elapsed         | 122          |
+|    total_timesteps      | 98304        |
+| train/                  |              |
+|    approx_kl            | 0.0079183765 |
+|    clip_fraction        | 0.0688       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.28        |
+|    explained_variance   | 0.725        |
+|    learning_rate        | 0.0001       |
+|    loss                 | -0.0273      |
+|    n_updates            | 470          |
+|    policy_gradient_loss | -0.00963     |
+|    std                  | 0.458        |
+|    value_loss           | 0.0253       |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 200          |
+|    ep_rew_mean          | -113         |
+| time/                   |              |
+|    fps                  | 802          |
+|    iterations           | 49           |
+|    time_elapsed         | 125          |
+|    total_timesteps      | 100352       |
+| train/                  |              |
+|    approx_kl            | 0.0056046313 |
+|    clip_fraction        | 0.05         |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.24        |
+|    explained_variance   | 0.464        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.011        |
+|    n_updates            | 480          |
+|    policy_gradient_loss | -0.00587     |
+|    std                  | 0.451        |
+|    value_loss           | 0.0369       |
+------------------------------------------
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+Training complete. Model and videos logged to wandb.

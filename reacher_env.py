@@ -5,19 +5,22 @@ import mujoco
 import mujoco.viewer
 
 class ReacherEnv(gym.Env):
-    def __init__(self, model_path="C:/Users/90546/Desktop/customenv/custom_env.xml"):
+    def __init__(self, model_path="C:/Users/90546/Desktop/customenv/safe_reacher.xml"):
         super().__init__()
         self.model = mujoco.MjModel.from_xml_path(model_path)
         self.data = mujoco.MjData(self.model)
 
-        # Action space: 2 joint motors
+        self.viewer = None
+
+        # Action space: 2 motors
         self.action_space = spaces.Box(low=-1.0, high=1.0, shape=(2,), dtype=np.float32)
 
-        # Observation: joint angles, velocities, fingertip pos, target pos
+        # Observation space
         obs_high = np.inf * np.ones(self._get_obs().shape, dtype=np.float32)
         self.observation_space = spaces.Box(-obs_high, obs_high, dtype=np.float32)
 
-        self.viewer = None
+        self.max_steps_per_episode = 200
+        self.current_step = 0
 
     def _get_obs(self):
         qpos = self.data.qpos
@@ -30,13 +33,16 @@ class ReacherEnv(gym.Env):
         if seed is not None:
             np.random.seed(seed)
 
-        self.data.qpos[:] = np.random.uniform(low=-0.1, high=0.1, size=self.model.nq)
+        self.data.qpos[:] = np.random.uniform(-0.1, 0.1, size=self.model.nq)
         self.data.qvel[:] = 0.0
-         # Randomize target position (in X, Y plane)(optional)
-        xy = np.random.uniform(low=-1.0, high=1.0, size=2)
-        self.model.body("target").pos[:2] = xy
-        self.model.body("target").pos[2] = 0.2  # Keep Z fixed at 0.2
         mujoco.mj_forward(self.model, self.data)
+
+        self.current_step = 0
+
+        fingertip_pos = self.data.body("fingertip").xpos
+        target_pos = self.data.body("target").xpos
+        self.last_dist = np.linalg.norm(fingertip_pos - target_pos)
+        self.last_action = np.zeros(self.action_space.shape)
 
         return self._get_obs(), {}
 
@@ -45,15 +51,36 @@ class ReacherEnv(gym.Env):
         mujoco.mj_step(self.model, self.data)
 
         obs = self._get_obs()
+
         fingertip_pos = self.data.body("fingertip").xpos
         target_pos = self.data.body("target").xpos
         dist = np.linalg.norm(fingertip_pos - target_pos)
 
-        reward = -dist - 0.01 * np.sum(np.square(self.data.ctrl))
-        terminated = dist < 0.05    # True if goal is reached
-        truncated = False           # or add a time limit if you like
+        reward = -dist
+        if dist < 0.2:
+            reward += 5
+        if dist < 0.1:
+            reward += 200
+            terminated = True
+        else:
+            terminated = False
 
-        info = {"distance": dist}
+        reward += 15 * (self.last_dist - dist)
+        self.last_dist = dist
+        reward -= 0.05 * np.sum(np.square(action))
+        reward -= 0.1 * np.sum(np.square(action - self.last_action))
+        self.last_action = action
+        reward -= 0.01 * np.sum(np.square(self.data.qvel))
+
+        self.current_step += 1
+        truncated = self.current_step >= self.max_steps_per_episode
+
+        info = {
+            "distance": dist,
+            "TimeLimit.truncated": truncated,
+            "Goal.terminated": terminated
+        }
+
         return obs, reward, terminated, truncated, info
 
     def render(self):

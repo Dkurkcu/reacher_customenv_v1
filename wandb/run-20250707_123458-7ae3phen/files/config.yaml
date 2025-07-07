@@ -1,0 +1,38 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            xpk8sws3elfvhgxaqm9ar2m4x7lvrd7z:
+                codePath: upload_video.py
+                codePathLocal: upload_video.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1023411220480"
+                        used: "108487069696"
+                email: krkcdeniz15@gmail.com
+                executable: c:\Users\90546\AppData\Local\Programs\Python\Python313\python.exe
+                git:
+                    commit: 829d48d8d4607998e91a8a22cc10ac3efde1c2d9
+                    remote: https://github.com/Dkurkcu/reacher_customenv_v1.git
+                host: DESKTOP-E3OIJ6K
+                memory:
+                    total: "14773178368"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\90546\Desktop\customenv\upload_video.py
+                python: CPython 3.13.3
+                root: C:\Users\90546\Desktop\customenv
+                startedAt: "2025-07-07T10:34:58.196250Z"
+                writerId: xpk8sws3elfvhgxaqm9ar2m4x7lvrd7z
+        m: []
+        python_version: 3.13.3
+        t:
+            "3":
+                - 13
+            "4": 3.13.3
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
